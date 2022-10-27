@@ -1,0 +1,37 @@
+﻿@page
+@model OFAD.Pages.LoginModel
+@{
+}
+<body>
+    <div>
+    <h2 class="heading_container">
+        LOGIN
+    </h2>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form_container">
+                <form action="">
+                    <div>
+                        <input type="text" class="form-control" placeholder="Enter your email address or your phone number" />
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" placeholder="Enter your password" />
+                    </div>
+                    <div class="btn_box">
+                     
+                            <ul>
+                                <li><button class="login-button" type="button">Login</button></li>
+                                <div>
+                                    <p>you don't have an account?</p>
+                                </div>
+                            <li><button class="create_account" asp-page="/CreateAccount">Create an account</button></li>
+                            </ul>
+                     
+                    </div>
+                </form>
+                </div>
+        </div>
+    </div>
+
+</body>
